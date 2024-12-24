@@ -1,0 +1,5 @@
+#For Reading LINES
+f=open("main.py")
+lines=f.readlines()
+print(lines)
+f.close(

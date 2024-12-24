@@ -1,0 +1,7 @@
+#Readline Using While Loop:
+f=open("main.py")
+line=f.readline()
+while (line!=""):
+    print(line)
+    line=f.readline()
+f.close()

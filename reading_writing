@@ -1,0 +1,10 @@
+#For Reading Content Of File
+f=open("main.py")
+data=f.read()
+print(data)
+f.close()
+#For Writing Content On File
+a="fatima is a good programmer"
+f=open("main.py","w")
+f.write(a)
+f.close()

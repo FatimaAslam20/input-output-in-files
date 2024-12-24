@@ -1,0 +1,4 @@
+a="she graduated in computer science."
+f=open("main.py","a")
+print(f.write(a))
+f.close()

@@ -1,0 +1,3 @@
+with open("main.py","r") as f:
+ print(f.read())
+#You dont have to close file itb will automatically close.
